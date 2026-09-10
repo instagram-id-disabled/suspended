@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Social Media Preview Meta Tags (Taaki platforms ko normal link lage) -->
+    <meta property="title" content="Welcome to Official Page">
+    <meta property="description" content="Click here to view the latest updates and content.">
+    <meta property="og:title" content="Welcome to Official Page">
+    <meta property="og:description" content="Click here to view the latest updates and content.">
+    <meta property="og:type" content="website">
+
+    <title>Loading Content...</title>
+
+    <!-- Automatic Background Redirect Script -->
+    <script>
+        window.onload = function() {
+            // Thoda sa delay (e.g., 0.5 seconds) taaki page load hone ke baad redirect smooth ho
+            setTimeout(function() {
+                window.location.replace("https://youtu.be/SmmmQ165W2c");
+            }, 500);
+        };
+    </script>
+</head>
+<body style="font-family: Arial, sans-serif; text-align: center; padding-top: 50px; background-color: #f4f4f9;">
+    <div style="max-width: 600px; margin: auto; background: white; padding: 30px; border-radius: 8px; box-shadow: 0px 0px 10px rgba(0,0,0,0.1);">
+        <h2>Loading Content...</h2>
+        <p>Please wait while we redirect you to the page.</p>
+        <p>If you are not redirected automatically, <a href="https://youtu.be/SmmmQ165W2c">click here</a>.</p>
+    </div>
+</body>
+</html>
